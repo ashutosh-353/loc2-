@@ -10,7 +10,7 @@ void main() {
    printf("Enter second number: ");
    scanf("%f", &num2);
 
-   printf("Enter operation to perform:\n");
+   printf("Enter operation to be performed:\n");
    printf("1. Addition\n");
    printf("2. Subtraction\n");
    printf("3. Multiplication\n");
