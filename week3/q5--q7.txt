@@ -1,0 +1,17 @@
+Q5.
+Ans-a.(ii) k is a pointer to a pointer to a pointer to a pointer to a char.
+    b.(iii) 6
+
+Q6.
+Ans-a. Structure elements can be initialized at the time of declaration.
+
+Q7.
+Ans- The size of a C structure is determined by the combined size of its individual members, with any necessary padding added to ensure alignment of the members.
+
+The amount of padding added between members depends on the data types of the members and the architecture of the computer being used. For example, on some systems, 2-byte data types must be aligned on 2-byte boundaries, while 4-byte data types must be aligned on 4-byte boundaries. Padding may be added to ensure that each member is properly aligned.
+
+The size of a C structure can be calculated using the "sizeof" operator, which returns the size in bytes of the structure. For example, given a structure named "my_baby", the size of the structure can be calculated using the following line of code:
+										
+										sizeof(my_baby)
+
+This will return the size of the structure in bytes, taking into account any necessary padding for alignment. It's important to note that the size of a C structure may be different on different systems, depending on the architecture and data types used.
